@@ -7,34 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3082DA06214126610070DAA7 /* EncodeAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3082DA05214126610070DAA7 /* EncodeAudioViewController.m */; };
+		B901AD401E9F6EEA00CF0110 /* VideoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = B901AD3F1E9F6EEA00CF0110 /* VideoTable.m */; };
+		B901AD431E9F6F0800CF0110 /* VedioCaptViewCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = B901AD421E9F6F0800CF0110 /* VedioCaptViewCtr.m */; };
+		B9561D511EF75DB00088A783 /* VedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9561D501EF75DB00088A783 /* VedioView.m */; };
+		B95D66381F02626400DCDE1F /* AAPLEAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B95D66371F02626400DCDE1F /* AAPLEAGLLayer.m */; };
 		B9EFBB551E9DC9370052F976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBB541E9DC9370052F976 /* main.m */; };
 		B9EFBB581E9DC9370052F976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBB571E9DC9370052F976 /* AppDelegate.m */; };
 		B9EFBB5B1E9DC9370052F976 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBB5A1E9DC9370052F976 /* ViewController.m */; };
 		B9EFBB5E1E9DC9370052F976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EFBB5C1E9DC9370052F976 /* Main.storyboard */; };
 		B9EFBB601E9DC9370052F976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9EFBB5F1E9DC9370052F976 /* Assets.xcassets */; };
 		B9EFBB631E9DC9370052F976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EFBB611E9DC9370052F976 /* LaunchScreen.storyboard */; };
-		B9EFBB6E1E9DC9370052F976 /* VideoCaptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBB6D1E9DC9370052F976 /* VideoCaptTests.m */; };
-		B9EFBB791E9DC9370052F976 /* VideoCaptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBB781E9DC9370052F976 /* VideoCaptUITests.m */; };
+		B9EFBB8A1E9DFA080052F976 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EFBB891E9DFA080052F976 /* VideoToolbox.framework */; };
+		B9EFBB8D1E9E24170052F976 /* VTCEcd.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBB8C1E9E24170052F976 /* VTCEcd.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B9EFBB6A1E9DC9370052F976 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B9EFBB481E9DC9370052F976 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9EFBB4F1E9DC9370052F976;
-			remoteInfo = VideoCapt;
-		};
-		B9EFBB751E9DC9370052F976 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B9EFBB481E9DC9370052F976 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9EFBB4F1E9DC9370052F976;
-			remoteInfo = VideoCapt;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		3082DA04214126610070DAA7 /* EncodeAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncodeAudioViewController.h; sourceTree = "<group>"; };
+		3082DA05214126610070DAA7 /* EncodeAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncodeAudioViewController.m; sourceTree = "<group>"; };
+		B901AD3E1E9F6EEA00CF0110 /* VideoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTable.h; sourceTree = "<group>"; };
+		B901AD3F1E9F6EEA00CF0110 /* VideoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTable.m; sourceTree = "<group>"; };
+		B901AD411E9F6F0800CF0110 /* VedioCaptViewCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioCaptViewCtr.h; sourceTree = "<group>"; };
+		B901AD421E9F6F0800CF0110 /* VedioCaptViewCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioCaptViewCtr.m; sourceTree = "<group>"; };
+		B9561D4F1EF75DB00088A783 /* VedioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioView.h; sourceTree = "<group>"; };
+		B9561D501EF75DB00088A783 /* VedioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioView.m; sourceTree = "<group>"; };
+		B95D66361F02626400DCDE1F /* AAPLEAGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLEAGLLayer.h; sourceTree = "<group>"; };
+		B95D66371F02626400DCDE1F /* AAPLEAGLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEAGLLayer.m; sourceTree = "<group>"; };
 		B9EFBB501E9DC9370052F976 /* VideoCapt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCapt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EFBB541E9DC9370052F976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9EFBB561E9DC9370052F976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,12 +43,10 @@
 		B9EFBB5F1E9DC9370052F976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9EFBB621E9DC9370052F976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9EFBB641E9DC9370052F976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9EFBB691E9DC9370052F976 /* VideoCaptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoCaptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9EFBB6D1E9DC9370052F976 /* VideoCaptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCaptTests.m; sourceTree = "<group>"; };
-		B9EFBB6F1E9DC9370052F976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9EFBB741E9DC9370052F976 /* VideoCaptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoCaptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9EFBB781E9DC9370052F976 /* VideoCaptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCaptUITests.m; sourceTree = "<group>"; };
-		B9EFBB7A1E9DC9370052F976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9EFBB871E9DC9590052F976 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B9EFBB891E9DFA080052F976 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		B9EFBB8B1E9E24170052F976 /* VTCEcd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTCEcd.h; sourceTree = "<group>"; };
+		B9EFBB8C1E9E24170052F976 /* VTCEcd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTCEcd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,20 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9EFBB661E9DC9370052F976 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9EFBB711E9DC9370052F976 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B9EFBB8A1E9DFA080052F976 /* VideoToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				B9EFBB521E9DC9370052F976 /* VideoCapt */,
-				B9EFBB6C1E9DC9370052F976 /* VideoCaptTests */,
-				B9EFBB771E9DC9370052F976 /* VideoCaptUITests */,
 				B9EFBB511E9DC9370052F976 /* Products */,
+				B9EFBB861E9DC9590052F976 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				B9EFBB501E9DC9370052F976 /* VideoCapt.app */,
-				B9EFBB691E9DC9370052F976 /* VideoCaptTests.xctest */,
-				B9EFBB741E9DC9370052F976 /* VideoCaptUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,10 +85,22 @@
 				B9EFBB571E9DC9370052F976 /* AppDelegate.m */,
 				B9EFBB591E9DC9370052F976 /* ViewController.h */,
 				B9EFBB5A1E9DC9370052F976 /* ViewController.m */,
+				B901AD3E1E9F6EEA00CF0110 /* VideoTable.h */,
+				B901AD3F1E9F6EEA00CF0110 /* VideoTable.m */,
+				B9561D4F1EF75DB00088A783 /* VedioView.h */,
+				B9561D501EF75DB00088A783 /* VedioView.m */,
+				B901AD411E9F6F0800CF0110 /* VedioCaptViewCtr.h */,
+				B901AD421E9F6F0800CF0110 /* VedioCaptViewCtr.m */,
+				B9EFBB8B1E9E24170052F976 /* VTCEcd.h */,
+				B9EFBB8C1E9E24170052F976 /* VTCEcd.m */,
+				B95D66361F02626400DCDE1F /* AAPLEAGLLayer.h */,
+				B95D66371F02626400DCDE1F /* AAPLEAGLLayer.m */,
 				B9EFBB5C1E9DC9370052F976 /* Main.storyboard */,
 				B9EFBB5F1E9DC9370052F976 /* Assets.xcassets */,
 				B9EFBB611E9DC9370052F976 /* LaunchScreen.storyboard */,
 				B9EFBB641E9DC9370052F976 /* Info.plist */,
+				3082DA04214126610070DAA7 /* EncodeAudioViewController.h */,
+				3082DA05214126610070DAA7 /* EncodeAudioViewController.m */,
 				B9EFBB531E9DC9370052F976 /* Supporting Files */,
 			);
 			path = VideoCapt;
@@ -122,22 +114,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B9EFBB6C1E9DC9370052F976 /* VideoCaptTests */ = {
+		B9EFBB861E9DC9590052F976 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B9EFBB6D1E9DC9370052F976 /* VideoCaptTests.m */,
-				B9EFBB6F1E9DC9370052F976 /* Info.plist */,
+				B9EFBB891E9DFA080052F976 /* VideoToolbox.framework */,
+				B9EFBB871E9DC9590052F976 /* AVFoundation.framework */,
 			);
-			path = VideoCaptTests;
-			sourceTree = "<group>";
-		};
-		B9EFBB771E9DC9370052F976 /* VideoCaptUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B9EFBB781E9DC9370052F976 /* VideoCaptUITests.m */,
-				B9EFBB7A1E9DC9370052F976 /* Info.plist */,
-			);
-			path = VideoCaptUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,42 +143,6 @@
 			productReference = B9EFBB501E9DC9370052F976 /* VideoCapt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B9EFBB681E9DC9370052F976 /* VideoCaptTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9EFBB801E9DC9370052F976 /* Build configuration list for PBXNativeTarget "VideoCaptTests" */;
-			buildPhases = (
-				B9EFBB651E9DC9370052F976 /* Sources */,
-				B9EFBB661E9DC9370052F976 /* Frameworks */,
-				B9EFBB671E9DC9370052F976 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9EFBB6B1E9DC9370052F976 /* PBXTargetDependency */,
-			);
-			name = VideoCaptTests;
-			productName = VideoCaptTests;
-			productReference = B9EFBB691E9DC9370052F976 /* VideoCaptTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B9EFBB731E9DC9370052F976 /* VideoCaptUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9EFBB831E9DC9370052F976 /* Build configuration list for PBXNativeTarget "VideoCaptUITests" */;
-			buildPhases = (
-				B9EFBB701E9DC9370052F976 /* Sources */,
-				B9EFBB711E9DC9370052F976 /* Frameworks */,
-				B9EFBB721E9DC9370052F976 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9EFBB761E9DC9370052F976 /* PBXTargetDependency */,
-			);
-			name = VideoCaptUITests;
-			productName = VideoCaptUITests;
-			productReference = B9EFBB741E9DC9370052F976 /* VideoCaptUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,17 +154,8 @@
 				TargetAttributes = {
 					B9EFBB4F1E9DC9370052F976 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5GK3VWM7ZP;
 						ProvisioningStyle = Automatic;
-					};
-					B9EFBB681E9DC9370052F976 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B9EFBB4F1E9DC9370052F976;
-					};
-					B9EFBB731E9DC9370052F976 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B9EFBB4F1E9DC9370052F976;
 					};
 				};
 			};
@@ -235,8 +173,6 @@
 			projectRoot = "";
 			targets = (
 				B9EFBB4F1E9DC9370052F976 /* VideoCapt */,
-				B9EFBB681E9DC9370052F976 /* VideoCaptTests */,
-				B9EFBB731E9DC9370052F976 /* VideoCaptUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,20 +188,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9EFBB671E9DC9370052F976 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9EFBB721E9DC9370052F976 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,42 +195,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9561D511EF75DB00088A783 /* VedioView.m in Sources */,
+				B901AD431E9F6F0800CF0110 /* VedioCaptViewCtr.m in Sources */,
+				B9EFBB8D1E9E24170052F976 /* VTCEcd.m in Sources */,
 				B9EFBB5B1E9DC9370052F976 /* ViewController.m in Sources */,
+				B901AD401E9F6EEA00CF0110 /* VideoTable.m in Sources */,
+				3082DA06214126610070DAA7 /* EncodeAudioViewController.m in Sources */,
 				B9EFBB581E9DC9370052F976 /* AppDelegate.m in Sources */,
+				B95D66381F02626400DCDE1F /* AAPLEAGLLayer.m in Sources */,
 				B9EFBB551E9DC9370052F976 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9EFBB651E9DC9370052F976 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9EFBB6E1E9DC9370052F976 /* VideoCaptTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9EFBB701E9DC9370052F976 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9EFBB791E9DC9370052F976 /* VideoCaptUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B9EFBB6B1E9DC9370052F976 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B9EFBB4F1E9DC9370052F976 /* VideoCapt */;
-			targetProxy = B9EFBB6A1E9DC9370052F976 /* PBXContainerItemProxy */;
-		};
-		B9EFBB761E9DC9370052F976 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B9EFBB4F1E9DC9370052F976 /* VideoCapt */;
-			targetProxy = B9EFBB751E9DC9370052F976 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B9EFBB5C1E9DC9370052F976 /* Main.storyboard */ = {
@@ -424,10 +323,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GK3VWM7ZP;
 				INFOPLIST_FILE = VideoCapt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.VideoCapt;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vnetoo.Test-ffm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -435,56 +340,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GK3VWM7ZP;
 				INFOPLIST_FILE = VideoCapt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.VideoCapt;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vnetoo.Test-ffm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B9EFBB811E9DC9370052F976 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = VideoCaptTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.VideoCaptTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoCapt.app/VideoCapt";
-			};
-			name = Debug;
-		};
-		B9EFBB821E9DC9370052F976 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = VideoCaptTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.VideoCaptTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoCapt.app/VideoCapt";
-			};
-			name = Release;
-		};
-		B9EFBB841E9DC9370052F976 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = VideoCaptUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.VideoCaptUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = VideoCapt;
-			};
-			name = Debug;
-		};
-		B9EFBB851E9DC9370052F976 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = VideoCaptUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.VideoCaptUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = VideoCapt;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -507,22 +372,7 @@
 				B9EFBB7F1E9DC9370052F976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B9EFBB801E9DC9370052F976 /* Build configuration list for PBXNativeTarget "VideoCaptTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9EFBB811E9DC9370052F976 /* Debug */,
-				B9EFBB821E9DC9370052F976 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		B9EFBB831E9DC9370052F976 /* Build configuration list for PBXNativeTarget "VideoCaptUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9EFBB841E9DC9370052F976 /* Debug */,
-				B9EFBB851E9DC9370052F976 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
